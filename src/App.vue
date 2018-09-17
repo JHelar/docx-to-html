@@ -174,6 +174,7 @@ export default class App extends Vue {
           this.currentPage = [];
           break;
         default:
+            console.log(props)
           break;
       }
     };
